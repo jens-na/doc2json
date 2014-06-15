@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Jens Nazarenus"]
   s.email       = ["me@jens-na.de"]
   s.homepage    = "https://github.com/jens-na/doc2json"
-  s.summary     = %q{Generate json based ruby documentation}
+  s.summary     = %q{Generate JSON based Ruby documentation}
+  s.description = %q{Generate JSON based Ruby documentations with yard}
 
   s.add_runtime_dependency("yard", "~> 0.8.7.4")
   s.add_runtime_dependency("json", "~> 1.8.1")
@@ -19,9 +20,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency('redgreen', "~> 1.2.2")
   s.add_development_dependency('shoulda-context', "~> 1.1.6") 
   s.add_development_dependency('rr', "~> 1.1.2")
-
-  s.add_development_dependency('pry')
-  s.add_development_dependency('pry-nav')
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
