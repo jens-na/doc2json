@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Doc2Json::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Jens Nazarenus"]
-  s.email       = ["jens@0x6a.de"]
+  s.email       = ["me@jens-na.de"]
   s.homepage    = "https://github.com/jens-na/doc2json"
   s.summary     = %q{Generate json based ruby documentation}
 
