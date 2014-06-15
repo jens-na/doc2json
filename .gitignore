@@ -6,3 +6,4 @@ rdoc/
 .bundle/
 coverage
 tags
+test/output
