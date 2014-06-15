@@ -19,7 +19,10 @@ Gem::Specification.new do |s|
   s.add_development_dependency('redgreen', "~> 1.2.2")
   s.add_development_dependency('shoulda-context', "~> 1.1.6") 
   s.add_development_dependency('rr', "~> 1.1.2")
-  
+
+  s.add_development_dependency('pry')
+  s.add_development_dependency('pry-nav')
+
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }

@@ -9,7 +9,7 @@ Installation
   gem install doc2json
 ```
 
-Afterwards you can start generate a machine friendly documentation for
+Afterwards you can generate a machine friendly documentation for
 your project.
 
 Usage
@@ -25,5 +25,3 @@ License
 =======
 Licensed under the MIT License
 (c) Jens Nazarenus, 2014
-
-

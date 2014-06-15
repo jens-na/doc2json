@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'doc2json'
+
+input = [ARGV[0]]
+generator = Doc2Json::Generator.new(input, ARGV[1])
+generator.generate
